@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #4CA1AF;  
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); 
+
+  }
+  
+ html{
+
+      min-width: 100vh;
+ }
+  
+  
+  h1 {
+    color: black;
+  }
+  
+  #quoteContainer {
+    
+    margin-top: 100px;
+    
+    padding:40px;
+    border: 1px solid black;
+    border-radius: 1rem;
+  }
+  
+  #quoteText {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  #newQuoteButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5C86D6;
+    color: white;
+    border-radius: 0.5rem;
+    border:none;
+  
+  }
+  
+
+  #newQuoteButton:hover{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #18305F;
+  
+  }
